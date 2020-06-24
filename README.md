@@ -1,4 +1,4 @@
-# react-native-gtm
+# react-native-google-tag-manager
 React Native package for using native Google tag manager libraries on iOS and Android.
 
 ## Installation
@@ -26,7 +26,7 @@ React Native package for using native Google tag manager libraries on iOS and An
 ###openContainerWithId(containerId)
 Import the libraries and call `openContainerWithId` to create singleton instance.
     ```
-    import GoogleTagManager from 'react-native-gtm';
+    import GoogleTagManager from 'react-native-google-tag-manager';
     
     (function initializeGA() {
 	    GoogleTagManager.openContainerWithId("GTM-XXXX")
