@@ -1,6 +1,6 @@
 {
   "name": "react-native-google-tag-manager",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "React Native library for using native Google tag manager libraries on iOS and Android",
   "main": "./index.js",
   "author": {
