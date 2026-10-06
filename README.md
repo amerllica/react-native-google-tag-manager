@@ -1,4 +1,24 @@
 # react-native-google-tag-manager
+
+> **⚠️ Deprecated. This repository is archived and no longer maintained.**
+>
+> This library wraps the legacy Google Tag Manager mobile SDKs (iOS v3, Android v4).
+> Google has shut down legacy mobile containers, so this library can no longer work,
+> even if the native build is fixed.
+>
+> **Expo / React Native successor:** [`expo-google-tag-manager`](https://github.com/amerllica/expo-google-tag-manager)
+> ([npm](https://www.npmjs.com/package/expo-google-tag-manager)) sets up Google Tag Manager
+> for Firebase on iOS and Android during `expo prebuild`.
+>
+> **Use instead:** [`@react-native-firebase/analytics`](https://rnfirebase.io/analytics/usage)
+> together with the native Google Tag Manager for Firebase setup:
+>
+> - iOS: <https://developers.google.com/tag-platform/tag-manager/ios/v5>
+> - Android: <https://developers.google.com/tag-platform/tag-manager/android/v5>
+>
+> Mobile GTM now reads the events that Firebase Analytics sends. There is no
+> `dataLayer.push()` on mobile anymore; use `analytics().logEvent()` instead.
+
 React Native package for using native Google tag manager libraries on iOS and Android.
 
 ## Installation
